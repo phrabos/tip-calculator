@@ -44,6 +44,7 @@ header {
     margin: 5px;
     text-align: center;
     font-size: 22px;
+    background-color: rgb(41, 41, 41);;
     
 }
 input {
@@ -69,11 +70,18 @@ select {
     border: 1px solid white;
 }
 .header {
-    font-size: 1.5em;
+    font-size: 1.6em;
+    -webkit-text-stroke: 1px black;
+}
+
+h1{
+    margin-top: 15px;
 }
 h2 {
-    font-size: 20px;
-    font-weight: normal;
+    
+    font-size: 30px;
+    -webkit-text-stroke: 1px black;
+    font-weight: 900;
     margin: 5px;    
 }
 
@@ -86,10 +94,15 @@ button {
     background-color: rgb(56, 68, 241);
     color: white;
     font-size: 25px;
+    
 }
 
 .tip-amount {
     margin-top: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    -webkit-text-stroke: 1px black;
+    
 }
 
 .quality {
