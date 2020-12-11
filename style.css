@@ -19,6 +19,8 @@ body  {
     align-items: center;
     background-color: rgb(41, 41, 41);
     color: white;
+    background-image: url("img.jpg");
+    
     
 }
 
