@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tip Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Neal's Tip Calculator</h1>
-    </header>
     <main>
+        <section class="header">
+            <h1>Neal's Tip Calculator</h1>
+        </section>
         <section>
             <h2>
                 Bill Amount
@@ -18,10 +18,10 @@
             <input id="bill-amount" type="number" placeholder="enter bill amount here"/>
         </section>
         <section>
-            <h2>
+            <h2 class="quality">
                 Quality of Service
             </h2>
-            <label for="service">Choose Quality of Service</label>
+            <label for="service"></label>
                 <div>
                     <select name="service" id="service-selector">
                         <option value="">--choose quality of service--</option>
@@ -38,7 +38,7 @@
             <button id="button">Calculate Tip</button>
         </section>
         <section>
-            <h2>
+            <h2 class="tip-amount">
                 Tip Amount
             </h2>
             <p id="tip-display" class="tip-display">tip will display here</p>
