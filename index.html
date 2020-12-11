@@ -15,7 +15,7 @@
             <h2>
                 Bill Amount
             </h2>
-            <input id="amount" type="number" placeholder="enter bill amount here"/>
+            <input id="bill-amount" type="number" placeholder="enter bill amount here"/>
         </section>
         <section>
             <h2>
@@ -23,14 +23,14 @@
             </h2>
             <label for="service">Choose Quality of Service</label>
                 <div>
-                    <select name="service" id="service">
+                    <select name="service" id="service-selector">
                         <option value="">--choose quality of service--</option>
-                        <option id="ten" value="10%">Take-out (10%)</option>
-                        <option id="twelve" value="12%">Bad Service (12%)</option>
-                        <option id="fifteen" value="15%">Average Service (15%)</option>
-                        <option id="eighteen" value="18%">Good Service (18%)</option>
-                        <option id="twenty" value="20%">Great Service (20%)</option>
-                        <option id="twenty-five" value="25%">Amazing Service (25%)</option>
+                        <option id="ten" value=".1">Take-out (10%)</option>
+                        <option id="twelve" value=".12">Bad Service (12%)</option>
+                        <option id="fifteen" value=".15">Average Service (15%)</option>
+                        <option id="eighteen" value=".18">Good Service (18%)</option>
+                        <option id="twenty" value=".2">Great Service (20%)</option>
+                        <option id="twenty-five" value=".25">Amazing Service (25%)</option>
                     </select>
                 </div>
         </section>
@@ -38,6 +38,9 @@
             <button id="button">Calculate Tip</button>
         </section>
         <section>
+            <h2>
+                Tip Amount
+            </h2>
             <p id="tip-display" class="tip-display">tip will display here</p>
         </section>
     </main>
