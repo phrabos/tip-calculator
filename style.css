@@ -44,7 +44,18 @@ header {
     margin: 5px;
     text-align: center;
     font-size: 22px;
-    background-color: rgb(41, 41, 41);;
+    background-color: rgb(41, 41, 41);
+    
+}
+.red {
+    height: 30px;
+    width: 270px;
+    border: 1px solid white;
+    margin: 5px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(41, 41, 41);
+    color:red;
     
 }
 input {
